@@ -44,13 +44,13 @@ The original measurements have these, hopefully descriptive enough, names:
 'data.frame':	180 obs. of  68 variables:
 
 
-		* $ activity                 : chr  
-		* $ subject                  : int  
-		* $ tbodyacc.mean.x          : num 
-		* $ tbodyacc.mean.y          : num  
-		* $ tbodyacc.mean.z          : num  
-		* $ tbodyacc.std.x           : num  
-		* $ tbodyacc.std.y           : num 
+		 $ activity                 : chr  
+		 $ subject                  : int  
+		 $ tbodyacc.mean.x          : num 
+		 $ tbodyacc.mean.y          : num  
+		 $ tbodyacc.mean.z          : num  
+		 $ tbodyacc.std.x           : num  
+		 $ tbodyacc.std.y           : num 
  		 $ tbodyacc.std.z           : num  
 		 $ tgravityacc.mean.x       : num   
 		 $ tgravityacc.mean.y       : num  
