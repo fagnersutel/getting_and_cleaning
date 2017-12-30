@@ -1,7 +1,29 @@
 #CodeBook: Getting and Cleaning Data Project
 (part of the coursera assessment for course "Getting and Cleaning Data")
 
-The tidied data set is contained within the file tidydata.txt. This can be easily read with R function read.table().
+Original data sets for this study:
+
+ - 'features_info.txt': Shows information about the variables used on the feature vector.
+
+ - 'features.txt': List of all features.
+
+ - 'activity_labels.txt': Links the class labels with their activity name.
+
+ - 'train/X_train.txt': Training set.
+
+ - 'train/y_train.txt': Training labels.
+
+ - 'test/X_test.txt': Test set.
+
+ - 'test/y_test.txt': Test labels.
+
+ - 'train/subject_train.txt':   Each row identifies the subject who performed the activity for each window sample.
+        
+ - 'test/subject_test.txt':  Each row identifies the subject who performed the activity for each window sample.
+      
+The resolutin output the data in tidy.txt stored in UCI HAR "Dataset" folder.      
+  
+The tidied data set is contained within the file tidy.txt in table format. This can be easily read with R function read.table(path, sep=" ", fill=FALSE, strip.white=TRUE, header = TRUE).
 
 It has this table like structure:
 
@@ -20,6 +42,8 @@ or the mean value of the measured standard deviations
 The original measurements have these, hopefully descriptive enough, names:
 
 'data.frame':	180 obs. of  68 variables:
+
+
 		 $ activity                 : chr  
 		 $ subject                  : int  
 		 $ tbodyacc.mean.x          : num 
