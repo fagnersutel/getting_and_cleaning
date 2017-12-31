@@ -1,7 +1,7 @@
-#CodeBook: Getting and Cleaning Data Project
+# CodeBook: Getting and Cleaning Data Project
 (part of the coursera assessment for course "Getting and Cleaning Data")
 
-##Original data sets for this study:
+## Original data sets for this study:
 
  - 'features_info.txt': Shows information about the variables used on the feature vector.
 
