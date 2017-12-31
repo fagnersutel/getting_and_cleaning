@@ -21,15 +21,18 @@
         
  - 'test/subject_test.txt':  Each row identifies the subject who performed the activity for each window sample.
       
-The resolutin output the data in tidy.txt stored in UCI HAR "Dataset" folder.      
+## Identifiers
+
+* `subject` - The ID of the test subject
+* `activity` - The type of activity performed when the corresponding measurements were taken
+
+###The resolutin output the data in tidy.txt stored in UCI HAR "Dataset" folder.      
   
 The tidied data set is contained within the file tidy.txt in table format. This can be easily read with R function read.table(path, sep=" ", fill=FALSE, strip.white=TRUE, header = TRUE).
 
-It has this table like structure:
+## It has this table like structure:
 
-row structure
-
-180 rows resulting from 30 test subjects during 6 tested activities.
+### 180 rows resulting from 30 test subjects during 6 tested activities.
 
 column structure
 col 1: subject id
